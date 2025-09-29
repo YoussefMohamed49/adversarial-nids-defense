@@ -1,0 +1,14 @@
+name: adversarial-ids
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy=1.23.5
+  - pandas=1.5.3
+  - scikit-learn=1.2.2
+  - matplotlib=3.7.0
+  - seaborn=0.12.2
+  - tensorflow=2.10.0
+  - pip
+  - pip:
+    - adversarial-robustness-toolbox==1.14.0
